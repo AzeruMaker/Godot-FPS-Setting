@@ -12,7 +12,7 @@ func set_fps(fps):
 				print ("Warning : Cap fps with VSync")
 				Engine.max_fps = fps
 	else:
-		printerr ("Wrong call set fps with variable : " + fps)
+		printerr ("Wrong call set fps with variable : " + str(fps))
 		
 func get_fps():
 	return (Engine.max_fps)
